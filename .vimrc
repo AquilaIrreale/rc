@@ -22,6 +22,8 @@ autocmd ColorScheme * highlight Tabs ctermbg=green guibg=green
 autocmd ColorScheme * highlight ExtraWhitespace ctermbg=red guibg=red
 
 autocmd BufNewFile,BufRead *.sage set ft=python
+autocmd BufNewFile,BufRead *.s set ft=gas
+autocmd BufNewFile,BufRead *.S set ft=gas
 
 syntax on
 
@@ -44,6 +46,8 @@ call plug#begin('~/.vim/plugged')
     Plug 'https://github.com/guns/vim-sexp.git'
     " vlime
     Plug 'https://github.com/vlime/vlime.git'
+    " VIM-GAS
+    Plug 'https://github.com/shirk/vim-gas.git'
 call plug#end()
 
 " Python-syntax plugin config
