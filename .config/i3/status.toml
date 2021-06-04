@@ -4,14 +4,12 @@ icons = "awesome"
 [[block]]
 block = "net"
 device = "eno1"
-speed_up = true
-speed_down = true
 interval = 2
 
 [[block]]
 block = "disk_space"
 path = "/"
-alias = "SSD"
+format = "SSD {available}"
 info_type = "available"
 unit = "GB"
 interval = 20
@@ -21,8 +19,8 @@ alert = 5.0
 [[block]]
 block = "memory"
 display_type = "memory"
-format_mem = "{MAg}G"
-format_swap = "{SFg}G"
+format_mem = "{mem_avail;G}"
+format_swap = "{swap_free;G}"
 
 [[block]]
 block = "cpu"
@@ -30,7 +28,7 @@ interval = 1
 
 [[block]]
 block = "temperature"
-format = "{average}°C"
+format = "{average}C"
 collapsed = false
 
 [[block]]
