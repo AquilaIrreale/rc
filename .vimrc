@@ -24,7 +24,8 @@ autocmd ColorScheme * highlight ExtraWhitespace ctermbg=red guibg=red
 autocmd BufNewFile,BufRead *.sage set ft=python
 autocmd BufNewFile,BufRead *.s set ft=gas
 autocmd BufNewFile,BufRead *.S set ft=gas
-autocmd BufNewFile,BufRead *.html,*.xml,*.tex set shiftwidth=2 tabstop=2
+autocmd BufNewFile,BufRead *.cls set ft=tex
+autocmd BufNewFile,BufRead *.md,*.html,*.xml,*.tex set shiftwidth=2 tabstop=2
 
 syntax on
 
