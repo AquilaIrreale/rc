@@ -9,6 +9,7 @@ set nojoinspaces
 set autoindent
 set number
 set relativenumber
+set tabpagemax=1000
 
 set spelllang=it
 
