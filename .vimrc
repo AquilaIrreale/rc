@@ -55,6 +55,10 @@ call plug#begin('~/.vim/plugged')
     Plug 'https://github.com/vlime/vlime.git'
     " VIM-GAS
     Plug 'https://github.com/shirk/vim-gas.git'
+    " dart-vim-plugin
+    Plug 'https://github.com/dart-lang/dart-vim-plugin.git'
+    " vim-flutter
+    Plug 'https://github.com/thosakwe/vim-flutter.git'
 call plug#end()
 
 " Python-syntax plugin config
