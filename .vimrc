@@ -58,6 +58,8 @@ call plug#begin('~/.vim/plugged')
     Plug 'https://github.com/dart-lang/dart-vim-plugin.git'
     " vim-flutter
     Plug 'https://github.com/thosakwe/vim-flutter.git'
+    " rust-vim
+    Plug 'rust-lang/rust.vim'
 call plug#end()
 
 " Python-syntax plugin config
