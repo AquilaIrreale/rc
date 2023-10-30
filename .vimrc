@@ -27,7 +27,7 @@ autocmd BufNewFile,BufRead *.s set ft=gas
 autocmd BufNewFile,BufRead *.S set ft=gas
 autocmd BufNewFile,BufRead *.cls set ft=tex
 autocmd BufNewFile,BufRead *.conf,*.bb,*.bbclass,*.bbappend set ft=config
-autocmd BufNewFile,BufRead *.md,*.html,*.xml,*.tex set shiftwidth=2 tabstop=2
+autocmd BufNewFile,BufRead *.md,*.html,*.xml,*.tex,*.dart set shiftwidth=2 tabstop=2
 autocmd BufNewFile,BufRead *.md set tw=72
 autocmd BufNewFile,BufRead *.arb set ft=json
 
